@@ -411,10 +411,10 @@ where available options are:
         if drawBorder == "":
                 print("drawBorder is not determined. defaulting to  %s..."%(drawBorder));
         if min_size == "":
-                min_size = 300
+                min_size = 50
                 print("min size is not determined. defaulting to  %d..."%(min_size));
         if max_size == "":
-                max_size = 1000
+                max_size = 300
                 print("max size is not determined. defaulting to  %d..."%(max_size));
         if minX == "":
                 minX = 1
